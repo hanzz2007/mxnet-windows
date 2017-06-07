@@ -1,0 +1,439 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:40:57。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\3.4.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.00
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/3.4.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:41:00。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\3.4.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.89
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/3.4.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_713a8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:41:01。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_713a8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_713a8.dir\Debug\”。
+  正在创建目录“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_713a8.dir\Debug\cmTC_713a8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_713a8.dir\Debug\cmTC_713a8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_713a8.dir\Debug\\" /Fd"cmTC_713a8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_713a8.dir\Debug\\" /Fd"cmTC_713a8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_713a8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_713a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_713a8.lib" /MACHINE:X64  /machine:x64 /debug cmTC_713a8.dir\Debug\testCCompiler.obj
+  cmTC_713a8.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_713a8.exe
+  cmTC_713a8.vcxproj -> F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_713a8.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_713a8.dir\Debug\cmTC_713a8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_713a8.dir\Debug\cmTC_713a8.tlog\cmTC_713a8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_713a8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.03
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_507de.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:41:02。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_507de.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_507de.dir\Debug\”。
+  正在创建目录“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_507de.dir\Debug\cmTC_507de.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_507de.dir\Debug\cmTC_507de.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_507de.dir\Debug\\" /Fd"cmTC_507de.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "G:\soft\develop\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCCompilerABI.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_507de.dir\Debug\\" /Fd"cmTC_507de.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "G:\soft\develop\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_507de.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_507de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_507de.lib" /MACHINE:X64  /machine:x64 /debug cmTC_507de.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_507de.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_507de.exe
+  cmTC_507de.vcxproj -> F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_507de.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_507de.dir\Debug\cmTC_507de.tlog\unsuccessfulbuild”。
+  正在对“cmTC_507de.dir\Debug\cmTC_507de.tlog\cmTC_507de.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_507de.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.65
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_94359.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:41:03。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_94359.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_94359.dir\Debug\”。
+  正在创建目录“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_94359.dir\Debug\cmTC_94359.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_94359.dir\Debug\cmTC_94359.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_94359.dir\Debug\\" /Fd"cmTC_94359.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_94359.dir\Debug\\" /Fd"cmTC_94359.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_94359.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_94359.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_94359.lib" /MACHINE:X64  /machine:x64 /debug cmTC_94359.dir\Debug\testCXXCompiler.obj
+  cmTC_94359.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_94359.exe
+  cmTC_94359.vcxproj -> F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_94359.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_94359.dir\Debug\cmTC_94359.tlog\unsuccessfulbuild”。
+  正在对“cmTC_94359.dir\Debug\cmTC_94359.tlog\cmTC_94359.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_94359.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e904a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:41:04。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_e904a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e904a.dir\Debug\”。
+  正在创建目录“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e904a.dir\Debug\cmTC_e904a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e904a.dir\Debug\cmTC_e904a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e904a.dir\Debug\\" /Fd"cmTC_e904a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "G:\soft\develop\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e904a.dir\Debug\\" /Fd"cmTC_e904a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "G:\soft\develop\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_e904a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_e904a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_e904a.lib" /MACHINE:X64  /machine:x64 /debug cmTC_e904a.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_e904a.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_e904a.exe
+  cmTC_e904a.vcxproj -> F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_e904a.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e904a.dir\Debug\cmTC_e904a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e904a.dir\Debug\cmTC_e904a.tlog\cmTC_e904a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_e904a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_78b32.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:41:05。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_78b32.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_78b32.dir\Debug\”。
+  正在创建目录“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_78b32.dir\Debug\cmTC_78b32.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_78b32.dir\Debug\cmTC_78b32.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_78b32.dir\Debug\\" /Fd"cmTC_78b32.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\feature_tests.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_78b32.dir\Debug\\" /Fd"cmTC_78b32.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_78b32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_78b32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_78b32.lib" /MACHINE:X64  /machine:x64 /debug cmTC_78b32.dir\Debug\feature_tests.obj
+  cmTC_78b32.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_78b32.exe
+  cmTC_78b32.vcxproj -> F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_78b32.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_78b32.dir\Debug\cmTC_78b32.tlog\unsuccessfulbuild”。
+  正在对“cmTC_78b32.dir\Debug\cmTC_78b32.tlog\cmTC_78b32.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_78b32.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.58
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7c1d1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:43:43。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_7c1d1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7c1d1.dir\Debug\”。
+  正在创建目录“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7c1d1.dir\Debug\cmTC_7c1d1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7c1d1.dir\Debug\cmTC_7c1d1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W1 /WX- /MP /Od /Ob0 /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_7c1d1.dir\Debug\\" /Fd"cmTC_7c1d1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\src.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W1 /WX- /MP /Od /Ob0 /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_7c1d1.dir\Debug\\" /Fd"cmTC_7c1d1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_7c1d1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_7c1d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_7c1d1.lib" /MACHINE:X64  /machine:x64 /debug cmTC_7c1d1.dir\Debug\src.obj
+  cmTC_7c1d1.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_7c1d1.exe
+  cmTC_7c1d1.vcxproj -> F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_7c1d1.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7c1d1.dir\Debug\cmTC_7c1d1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7c1d1.dir\Debug\cmTC_7c1d1.tlog\cmTC_7c1d1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_7c1d1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.85
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_41957.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2017/1/13 16:43:44。
+节点 1 上的项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_41957.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_41957.dir\Debug\”。
+  正在创建目录“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_41957.dir\Debug\cmTC_41957.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_41957.dir\Debug\cmTC_41957.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W1 /WX- /MP /Od /Ob0 /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_41957.dir\Debug\\" /Fd"cmTC_41957.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  /bigobj "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W1 /WX- /MP /Od /Ob0 /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_41957.dir\Debug\\" /Fd"cmTC_41957.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  /bigobj "F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_41957.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_41957.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_41957.lib" /MACHINE:X64  /machine:x64 /debug cmTC_41957.dir\Debug\src.obj
+  cmTC_41957.vcxproj -> F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\Debug\cmTC_41957.exe
+  cmTC_41957.vcxproj -> F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/CMakeTmp/Debug/cmTC_41957.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_41957.dir\Debug\cmTC_41957.tlog\unsuccessfulbuild”。
+  正在对“cmTC_41957.dir\Debug\cmTC_41957.tlog\cmTC_41957.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\face\mxnet\mxnet-face\mxnet\buildvs15cpu\CMakeFiles\CMakeTmp\cmTC_41957.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.74
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

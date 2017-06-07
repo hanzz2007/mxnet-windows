@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+F:/proj/face/mxnet/mxnet-face/mxnet/dmlc-core/CMakeLists.txt
+F:/proj/face/mxnet/mxnet-face/mxnet/dmlc-core/cmake/Utils.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindOpenMP.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindPackageMessage.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindOpenMP.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindPackageMessage.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindPythonInterp.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/FindPackageMessage.cmake
+G:/soft/develop/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeParseArguments.cmake

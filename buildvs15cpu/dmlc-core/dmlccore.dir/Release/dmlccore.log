@@ -1,0 +1,9 @@
+﻿  config.cc
+  data.cc
+  io.cc
+  recordio.cc
+  line_split.cc
+  recordio_split.cc
+  input_split_base.cc
+  local_filesys.cc
+  dmlccore.vcxproj -> C:\Users\feifei\Desktop\mxnet\buildvs15cpu\x64\Release\dmlccore.lib

@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{AA95EF49-948E-3D2F-993F-7ECD195742D8}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mxnet</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\buildvs15cpu\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mxnet.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libmxnet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mxnet.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libmxnet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">..\buildvs15cpu\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mxnet.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libmxnet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">..\buildvs15cpu\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mxnet.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libmxnet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR="Debug";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR=\"Debug\";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;dmlc-core\Debug\dmlccore.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/Debug/libmxnet.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/Debug/libmxnet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;..\3rdparty\include\opencv320;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR="Release";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR=\"Release\";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opencv_world320.lib;dmlccore.lib;libopenblas.dll.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\3rdparty\lib%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)libmxnet.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/Release/libmxnet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR="MinSizeRel";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR=\"MinSizeRel\";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;dmlc-core\MinSizeRel\dmlccore.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/MinSizeRel/libmxnet.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/MinSizeRel/libmxnet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR="RelWithDebInfo";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;MSHADOW_USE_CBLAS=1;MSHADOW_USE_MKL=0;MSHADOW_USE_CUDA=0;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MXNET_USE_OPENCV=1;CMAKE_INTDIR=\"RelWithDebInfo\";mxnet_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\3rdparty\include\openBLAS;..\include;..\mshadow;..\nnvm\include;..\dmlc-core\include;G:\soft\develop\opencv3.2\build\include;G:\soft\develop\opencv3.2\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;G:\soft\develop\opencv3.2\build\x64\vc14\lib\opencv_world320d.lib;dmlc-core\RelWithDebInfo\dmlccore.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/RelWithDebInfo/libmxnet.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/RelWithDebInfo/libmxnet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\common\cuda_utils.h" />
+    <ClInclude Include="..\src\common\lazy_alloc_array.h" />
+    <ClInclude Include="..\src\common\object_pool.h" />
+    <ClInclude Include="..\src\common\thread_local.h" />
+    <ClInclude Include="..\src\common\utils.h" />
+    <ClInclude Include="..\src\c_api\c_api_common.h" />
+    <ClInclude Include="..\src\engine\engine_impl.h" />
+    <ClInclude Include="..\src\engine\profiler.h" />
+    <ClInclude Include="..\src\engine\stream_manager.h" />
+    <ClInclude Include="..\src\engine\threaded_engine.h" />
+    <ClInclude Include="..\src\engine\thread_pool.h" />
+    <ClInclude Include="..\src\executor\exec_pass.h" />
+    <ClInclude Include="..\src\executor\graph_executor.h" />
+    <ClInclude Include="..\src\io\image_augmenter.h" />
+    <ClInclude Include="..\src\io\image_recordio.h" />
+    <ClInclude Include="..\src\io\inst_vector.h" />
+    <ClInclude Include="..\src\io\iter_batchloader.h" />
+    <ClInclude Include="..\src\io\iter_normalize.h" />
+    <ClInclude Include="..\src\io\iter_prefetcher.h" />
+    <ClInclude Include="..\src\kvstore\comm.h" />
+    <ClInclude Include="..\src\kvstore\kvstore_dist.h" />
+    <ClInclude Include="..\src\kvstore\kvstore_dist_server.h" />
+    <ClInclude Include="..\src\kvstore\kvstore_local.h" />
+    <ClInclude Include="..\src\ndarray\ndarray_function-inl.h" />
+    <ClInclude Include="..\src\ndarray\ndarray_function.h" />
+    <ClInclude Include="..\src\operator\activation-inl.h" />
+    <ClInclude Include="..\src\operator\batch_norm-inl.h" />
+    <ClInclude Include="..\src\operator\cast-inl.h" />
+    <ClInclude Include="..\src\operator\channel_op_common.h" />
+    <ClInclude Include="..\src\operator\concat-inl.h" />
+    <ClInclude Include="..\src\operator\convolution-inl.h" />
+    <ClInclude Include="..\src\operator\correlation-inl.h" />
+    <ClInclude Include="..\src\operator\crop-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_activation-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_batch_norm-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_convolution-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_deconvolution-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_lrn-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_pooling-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_rnn-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_softmax_activation-inl.h" />
+    <ClInclude Include="..\src\operator\cudnn_spatial_transformer-inl.h" />
+    <ClInclude Include="..\src\operator\custom-inl.h" />
+    <ClInclude Include="..\src\operator\deconvolution-inl.h" />
+    <ClInclude Include="..\src\operator\dropout-inl.h" />
+    <ClInclude Include="..\src\operator\elemwise_op_common.h" />
+    <ClInclude Include="..\src\operator\fully_connected-inl.h" />
+    <ClInclude Include="..\src\operator\identity_attach_KL_sparse_reg-inl.h" />
+    <ClInclude Include="..\src\operator\instance_norm-inl.h" />
+    <ClInclude Include="..\src\operator\l2_normalization-inl.h" />
+    <ClInclude Include="..\src\operator\leaky_relu-inl.h" />
+    <ClInclude Include="..\src\operator\loss_binary_op-inl.h" />
+    <ClInclude Include="..\src\operator\lrn-inl.h" />
+    <ClInclude Include="..\src\operator\make_loss-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_batch_norm-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_concat-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_convolution-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_cppwrapper.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_elementwise-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_fully_connected-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_lrn-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_memory-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_memory.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_pooling-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_relu-inl.h" />
+    <ClInclude Include="..\src\operator\mkl\mkl_util-inl.h" />
+    <ClInclude Include="..\src\operator\mshadow_op.h" />
+    <ClInclude Include="..\src\operator\native_op-inl.h" />
+    <ClInclude Include="..\src\operator\ndarray_op-inl.h" />
+    <ClInclude Include="..\src\operator\nnpack\nnpack_convolution-inl.h" />
+    <ClInclude Include="..\src\operator\nnpack\nnpack_fully_connected-inl.h" />
+    <ClInclude Include="..\src\operator\nnpack\nnpack_pooling-inl.h" />
+    <ClInclude Include="..\src\operator\nnpack\nnpack_util.h" />
+    <ClInclude Include="..\src\operator\operator_common.h" />
+    <ClInclude Include="..\src\operator\optimizer_op-inl.h" />
+    <ClInclude Include="..\src\operator\pad-inl.h" />
+    <ClInclude Include="..\src\operator\pooling-inl.h" />
+    <ClInclude Include="..\src\operator\regression_output-inl.h" />
+    <ClInclude Include="..\src\operator\rnn-inl.h" />
+    <ClInclude Include="..\src\operator\roi_pooling-inl.h" />
+    <ClInclude Include="..\src\operator\sequence_last-inl.h" />
+    <ClInclude Include="..\src\operator\sequence_mask-inl.h" />
+    <ClInclude Include="..\src\operator\sequence_op_common.h" />
+    <ClInclude Include="..\src\operator\sequence_reverse-inl.h" />
+    <ClInclude Include="..\src\operator\slice_channel-inl.h" />
+    <ClInclude Include="..\src\operator\softmax_activation-inl.h" />
+    <ClInclude Include="..\src\operator\softmax_output-inl.h" />
+    <ClInclude Include="..\src\operator\spatial_transformer-inl.h" />
+    <ClInclude Include="..\src\operator\special_functions-inl.h" />
+    <ClInclude Include="..\src\operator\svm_output-inl.h" />
+    <ClInclude Include="..\src\operator\swapaxis-inl.h" />
+    <ClInclude Include="..\src\operator\tensor\broadcast_reduce_op.h" />
+    <ClInclude Include="..\src\operator\tensor\elemwise_binary_broadcast_op.h" />
+    <ClInclude Include="..\src\operator\tensor\elemwise_binary_op.h" />
+    <ClInclude Include="..\src\operator\tensor\elemwise_binary_scalar_op.h" />
+    <ClInclude Include="..\src\operator\tensor\elemwise_sum.h" />
+    <ClInclude Include="..\src\operator\tensor\elemwise_unary_op.h" />
+    <ClInclude Include="..\src\operator\tensor\indexing_op.h" />
+    <ClInclude Include="..\src\operator\tensor\init_op.h" />
+    <ClInclude Include="..\src\operator\tensor\matrix_op-inl.h" />
+    <ClInclude Include="..\src\operator\tensor\ordering_op-inl.h" />
+    <ClInclude Include="..\src\operator\tensor\sample_op.h" />
+    <ClInclude Include="..\src\operator\upsampling-inl.h" />
+    <ClInclude Include="..\src\optimizer\sgd-inl.h" />
+    <ClInclude Include="..\src\storage\cpu_device_storage.h" />
+    <ClInclude Include="..\src\storage\gpu_device_storage.h" />
+    <ClInclude Include="..\src\storage\naive_storage_manager.h" />
+    <ClInclude Include="..\src\storage\pinned_memory_storage.h" />
+    <ClInclude Include="..\src\storage\pooled_storage_manager.h" />
+    <ClInclude Include="..\src\storage\storage_manager.h" />
+    <ClInclude Include="..\nnvm\src\c_api\c_api_common.h" />
+    <ClInclude Include="..\nnvm\src\pass\graph_algorithm.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\any.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\array_view.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\base.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\json.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\logging.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\memory.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\optional.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\parameter.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\registry.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\thread_local.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\timer.h" />
+    <ClInclude Include="..\nnvm\include\dmlc\type_traits.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\base.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\c_api.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\graph.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\graph_attr_types.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\node.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\op.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\op_attr_types.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\pass.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\pass_functions.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\symbolic.h" />
+    <ClInclude Include="..\nnvm\include\nnvm\tuple.h" />
+    <ClInclude Include="..\mshadow\mshadow\base.h" />
+    <ClInclude Include="..\mshadow\mshadow\dot_engine-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\expression.h" />
+    <ClInclude Include="..\mshadow\mshadow\expr_engine-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\expr_scalar-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\broadcast.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\broadcast_with_axis.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\channel_pool.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\channel_unpool.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\choose.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\complex.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\concat.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\crop.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\fill.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\flip.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\implicit_gemm.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\mask.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\mirror.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\one_hot.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\pack_col2patch.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\pad.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\range.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\reduceto1d.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\reduce_with_axis.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\reshape.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\slice.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\slice_ex.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\spatial_pool.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\spatial_unpool.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\spatial_upsampling_nearest.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\swapaxis.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\take.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\take_grad.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\transpose.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension\unpack_patch2col.h" />
+    <ClInclude Include="..\mshadow\mshadow\extension.h" />
+    <ClInclude Include="..\mshadow\mshadow\half.h" />
+    <ClInclude Include="..\mshadow\mshadow\io.h" />
+    <ClInclude Include="..\mshadow\mshadow\logging.h" />
+    <ClInclude Include="..\mshadow\mshadow\packet\plain-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\packet\sse-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\packet-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\random.h" />
+    <ClInclude Include="..\mshadow\mshadow\stream_gpu-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\tensor.h" />
+    <ClInclude Include="..\mshadow\mshadow\tensor_blob.h" />
+    <ClInclude Include="..\mshadow\mshadow\tensor_container.h" />
+    <ClInclude Include="..\mshadow\mshadow\tensor_cpu-inl.h" />
+    <ClInclude Include="..\mshadow\mshadow\tensor_gpu-inl.h" />
+    <ClCompile Include="..\src\common\mxrtc.cc" />
+    <ClCompile Include="..\src\c_api\c_api.cc" />
+    <ClCompile Include="..\src\c_api\c_api_error.cc">
+      <ObjectFileName>$(IntDir)/src/c_api/c_api_error.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\c_api\c_api_executor.cc" />
+    <ClCompile Include="..\src\c_api\c_api_ndarray.cc" />
+    <ClCompile Include="..\src\c_api\c_api_symbolic.cc">
+      <ObjectFileName>$(IntDir)/src/c_api/c_api_symbolic.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\c_api\c_predict_api.cc" />
+    <ClCompile Include="..\src\engine\engine.cc" />
+    <ClCompile Include="..\src\engine\naive_engine.cc" />
+    <ClCompile Include="..\src\engine\profiler.cc" />
+    <ClCompile Include="..\src\engine\threaded_engine.cc" />
+    <ClCompile Include="..\src\engine\threaded_engine_perdevice.cc" />
+    <ClCompile Include="..\src\engine\threaded_engine_pooled.cc" />
+    <ClCompile Include="..\src\executor\attach_op_execs_pass.cc" />
+    <ClCompile Include="..\src\executor\attach_op_resource_pass.cc" />
+    <ClCompile Include="..\src\executor\graph_executor.cc" />
+    <ClCompile Include="..\src\executor\inplace_addto_detect_pass.cc" />
+    <ClCompile Include="..\src\initialize.cc" />
+    <ClCompile Include="..\src\io\image_aug_default.cc" />
+    <ClCompile Include="..\src\io\image_io.cc" />
+    <ClCompile Include="..\src\io\io.cc" />
+    <ClCompile Include="..\src\io\iter_csv.cc" />
+    <ClCompile Include="..\src\io\iter_image_recordio.cc" />
+    <ClCompile Include="..\src\io\iter_mnist.cc" />
+    <ClCompile Include="..\src\kvstore\kvstore.cc" />
+    <ClCompile Include="..\src\ndarray\ndarray.cc" />
+    <ClCompile Include="..\src\ndarray\ndarray_function.cc" />
+    <ClCompile Include="..\src\nnvm\legacy_json_util.cc" />
+    <ClCompile Include="..\src\nnvm\legacy_op_util.cc" />
+    <ClCompile Include="..\src\operator\activation.cc" />
+    <ClCompile Include="..\src\operator\batch_norm.cc" />
+    <ClCompile Include="..\src\operator\cast.cc" />
+    <ClCompile Include="..\src\operator\concat.cc" />
+    <ClCompile Include="..\src\operator\convolution.cc" />
+    <ClCompile Include="..\src\operator\correlation.cc" />
+    <ClCompile Include="..\src\operator\crop.cc" />
+    <ClCompile Include="..\src\operator\cross_device_copy.cc" />
+    <ClCompile Include="..\src\operator\cudnn_batch_norm.cc" />
+    <ClCompile Include="..\src\operator\cudnn_convolution.cc" />
+    <ClCompile Include="..\src\operator\custom.cc" />
+    <ClCompile Include="..\src\operator\deconvolution.cc" />
+    <ClCompile Include="..\src\operator\dropout.cc" />
+    <ClCompile Include="..\src\operator\fully_connected.cc" />
+    <ClCompile Include="..\src\operator\identity_attach_KL_sparse_reg.cc" />
+    <ClCompile Include="..\src\operator\instance_norm.cc" />
+    <ClCompile Include="..\src\operator\l2_normalization.cc" />
+    <ClCompile Include="..\src\operator\leaky_relu.cc" />
+    <ClCompile Include="..\src\operator\loss_binary_op.cc" />
+    <ClCompile Include="..\src\operator\lrn.cc" />
+    <ClCompile Include="..\src\operator\make_loss.cc" />
+    <ClCompile Include="..\src\operator\mkl\mkl_cppwrapper.cc" />
+    <ClCompile Include="..\src\operator\mkl\mkl_memory.cc" />
+    <ClCompile Include="..\src\operator\native_op.cc" />
+    <ClCompile Include="..\src\operator\ndarray_op.cc" />
+    <ClCompile Include="..\src\operator\nnpack\nnpack_util.cc" />
+    <ClCompile Include="..\src\operator\operator.cc" />
+    <ClCompile Include="..\src\operator\operator_util.cc" />
+    <ClCompile Include="..\src\operator\optimizer_op.cc" />
+    <ClCompile Include="..\src\operator\pad.cc" />
+    <ClCompile Include="..\src\operator\pooling.cc" />
+    <ClCompile Include="..\src\operator\regression_output.cc" />
+    <ClCompile Include="..\src\operator\rnn.cc" />
+    <ClCompile Include="..\src\operator\roi_pooling.cc" />
+    <ClCompile Include="..\src\operator\sequence_last.cc" />
+    <ClCompile Include="..\src\operator\sequence_mask.cc" />
+    <ClCompile Include="..\src\operator\sequence_reverse.cc" />
+    <ClCompile Include="..\src\operator\slice_channel.cc" />
+    <ClCompile Include="..\src\operator\softmax_activation.cc" />
+    <ClCompile Include="..\src\operator\softmax_output.cc" />
+    <ClCompile Include="..\src\operator\spatial_transformer.cc" />
+    <ClCompile Include="..\src\operator\svm_output.cc" />
+    <ClCompile Include="..\src\operator\swapaxis.cc" />
+    <ClCompile Include="..\src\operator\tensor\broadcast_reduce_op_index.cc" />
+    <ClCompile Include="..\src\operator\tensor\broadcast_reduce_op_value.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_broadcast_op_basic.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_broadcast_op_extended.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_broadcast_op_logic.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_op_basic.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_op_extended.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_op_logic.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_scalar_op_basic.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_scalar_op_extended.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_binary_scalar_op_logic.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_sum.cc" />
+    <ClCompile Include="..\src\operator\tensor\elemwise_unary_op.cc" />
+    <ClCompile Include="..\src\operator\tensor\indexing_op.cc" />
+    <ClCompile Include="..\src\operator\tensor\init_op.cc" />
+    <ClCompile Include="..\src\operator\tensor\matrix_op.cc" />
+    <ClCompile Include="..\src\operator\tensor\ordering_op.cc" />
+    <ClCompile Include="..\src\operator\tensor\sample_op.cc" />
+    <ClCompile Include="..\src\operator\upsampling.cc" />
+    <ClCompile Include="..\src\resource.cc" />
+    <ClCompile Include="..\src\storage\storage.cc" />
+    <ClCompile Include="..\nnvm\src\core\graph.cc" />
+    <ClCompile Include="..\nnvm\src\core\node.cc" />
+    <ClCompile Include="..\nnvm\src\core\op.cc" />
+    <ClCompile Include="..\nnvm\src\core\pass.cc" />
+    <ClCompile Include="..\nnvm\src\core\symbolic.cc" />
+    <ClCompile Include="..\nnvm\src\c_api\c_api_error.cc">
+      <ObjectFileName>$(IntDir)/nnvm/src/c_api/c_api_error.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\nnvm\src\c_api\c_api_graph.cc" />
+    <ClCompile Include="..\nnvm\src\c_api\c_api_symbolic.cc">
+      <ObjectFileName>$(IntDir)/nnvm/src/c_api/c_api_symbolic.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\nnvm\src\pass\gradient.cc" />
+    <ClCompile Include="..\nnvm\src\pass\infer_shape_type.cc" />
+    <ClCompile Include="..\nnvm\src\pass\order_mutation.cc" />
+    <ClCompile Include="..\nnvm\src\pass\place_device.cc" />
+    <ClCompile Include="..\nnvm\src\pass\plan_memory.cc" />
+    <ClCompile Include="..\nnvm\src\pass\saveload_json.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/dmlc-core/dmlccore.vcxproj">
+      <Project>8E5E7BF5-B099-30DC-BA04-D16B62323677</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

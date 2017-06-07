@@ -1,0 +1,6 @@
+F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/dmlc-core/CMakeFiles/dmlccore.dir
+F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/mxnet.dir
+F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/ALL_BUILD.dir
+F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/mxnet_lint.dir
+F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/CMakeFiles/ZERO_CHECK.dir
+F:/proj/face/mxnet/mxnet-face/mxnet/buildvs15cpu/dmlc-core/CMakeFiles/dmlccore_lint.dir
